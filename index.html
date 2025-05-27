@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Enhypen - Dark Blood Concept</title>
+<link rel="stylesheet" href="styles.css" />
+<script src="node.js" defer></script>
+</head>
+<body>
+<nav>
+  <div class="nav-container">
+    <div class="nav-logo">ENHYPEN</div>
+    <ul class="nav-links">
+      <li><a href="#about" class="active">About</a></li>
+      <li><a href="#members">Members</a></li>
+      <li><a href="#order">Order</a></li>
+      <li><a href="#video">Video</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="profile-open-btn" aria-label="Open Profile" title="Profile">👤 Profile</button></li>
+      <li><button id="cart-open-btn" aria-label="Open Cart" title="Cart">🛒 Cart</button></li>
+    </ul>
+    <div class="hamburger" id="hamburger" aria-label="Toggle menu" role="button" tabindex="0" aria-expanded="false">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</nav>
+
+<section id="about">
+  <h1>About Enhypen - Dark Blood Concept</h1>
+  <p>
+    Enhypen is a globally renowned K-pop group known for their powerful performances and unique concepts.
+    The "Dark Blood" concept explores themes of mystery, intensity, and passion, merging dark aesthetics with captivating storytelling.
+    Dive into the world of Enhypen through this concept and experience their passion and artistry like never before.
+  </p>
+</section>
+
+<section id="members">
+  <h2>Members</h2>
+  <div class="member-grid">
+
+    <div class="member-card" data-id="jungwon" data-name="Jungwon" data-price="29.99" data-type="member" data-img="https://i.pinimg.com/originals/bf/c6/4c/bfc64ce94735e180d02fc73fd103ece7.jpg">
+      <img src="https://i.pinimg.com/originals/bf/c6/4c/bfc64ce94735e180d02fc73fd103ece7.jpg" alt="Jungwon" />
+      <div class="member-name">Jungwon</div>
+      <div class="member-price">$29.99</div>
+      <div class="member-actions">
+        <button class="add-to-cart-btn">Add to Cart</button>
+        <button class="buy-now-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="member-card" data-id="sunghoon" data-name="Sunghoon" data-price="29.99" data-type="member" data-img="https://i.pinimg.com/originals/c3/0c/ca/c30cca6555b2d995792b5728856c4f6a.jpg">
+      <img src="https://i.pinimg.com/originals/c3/0c/ca/c30cca6555b2d995792b5728856c4f6a.jpg" alt="Sunghoon" />
+      <div class="member-name">Sunghoon</div>
+      <div class="member-price">$29.99</div>
+      <div class="member-actions">
+        <button class="add-to-cart-btn">Add to Cart</button>
+        <button class="buy-now-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="member-card" data-id="jake" data-name="Jake" data-price="29.99" data-type="member" data-img="https://f.ptcdn.info/566/080/000/rued3j1w1nh42W0OyHtd2-o.jpg">
+      <img src="https://f.ptcdn.info/566/080/000/rued3j1w1nh42W0OyHtd2-o.jpg" alt="Jake" />
+      <div class="member-name">Jake</div>
+      <div class="member-price">$29.99</div>
+      <div class="member-actions">
+        <button class="add-to-cart-btn">Add to Cart</button>
+        <button class="buy-now-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="member-card" data-id="heeseung" data-name="Heeseung" data-price="29.99" data-type="member" data-img="https://f.ptcdn.info/566/080/000/ruecuo28mu3h92Qpeg1cB-o.jpg">
+      <img src="https://f.ptcdn.info/566/080/000/ruecuo28mu3h92Qpeg1cB-o.jpg" alt="Heeseung" />
+      <div class="member-name">Heeseung</div>
+      <div class="member-price">$29.99</div>
+      <div class="member-actions">
+        <button class="add-to-cart-btn">Add to Cart</button>
+        <button class="buy-now-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="member-card" data-id="jay" data-name="Jay" data-price="29.99" data-type="member" data-img="https://f.ptcdn.info/566/080/000/rued0d288g1cL7Q1XcTn8-o.jpg">
+      <img src="https://f.ptcdn.info/566/080/000/rued0d288g1cL7Q1XcTn8-o.jpg" alt="Jay" />
+      <div class="member-name">Jay</div>
+      <div class="member-price">$29.99</div>
+      <div class="member-actions">
+        <button class="add-to-cart-btn">Add to Cart</button>
+        <button class="buy-now-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="member-card" data-id="sunoo" data-name="Sunoo" data-price="29.99" data-type="member" data-img="https://f.ptcdn.info/566/080/000/ruedbk21xv9VT1ORik26e-o.jpg">
+      <img src="https://f.ptcdn.info/566/080/000/ruedbk21xv9VT1ORik26e-o.jpg" alt="Sunoo" />
+      <div class="member-name">Sunoo</div>
+      <div class="member-price">$29.99</div>
+      <div class="member-actions">
+        <button class="add-to-cart-btn">Add to Cart</button>
+        <button class="buy-now-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="member-card" data-id="niki" data-name="Ni-ki" data-price="29.99" data-type="member" data-img="https://i.pinimg.com/originals/16/8d/44/168d44a73a82dc594fadb51596d7543f.jpg">
+      <img src="https://i.pinimg.com/originals/16/8d/44/168d44a73a82dc594fadb51596d7543f.jpg" alt="Ni-ki" />
+      <div class="member-name">Ni-ki</div>
+      <div class="member-price">$29.99</div>
+      <div class="member-actions">
+        <button class="add-to-cart-btn">Add to Cart</button>
+        <button class="buy-now-btn">Buy Now</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section id="order">
+  <h2>Order Albums</h2>
+  <div class="album-grid">
+    <div class="album-card" data-id="dark-blood" data-name="Dark Blood" data-price="19.99" data-type="album" data-img="https://th.bing.com/th/id/OIP.iryq0HQ-bcvCyTwNrhdnoQHaHa?cb=iwp2&rs=1&pid=ImgDetMain">
+      <img src="https://th.bing.com/th/id/OIP.iryq0HQ-bcvCyTwNrhdnoQHaHa?cb=iwp2&rs=1&pid=ImgDetMain" alt="Dark Blood" />
+      <div class="album-name">Dark Blood</div>
+      <div class="album-price">$19.99</div>
+      <div class="album-actions">
+        <button class="add-to-cart-btn">Add to Cart</button>
+        <button class="buy-now-btn">Buy Now</button>
+      </div>
+    </div>
+    <div class="album-card" data-id="border-carnival" data-name="Border: Carnival" data-price="21.99" data-type="album" data-img="https://ipurple.eu/1690-large_default/enhypen-border-carnival.jpg">
+      <img src="https://ipurple.eu/1690-large_default/enhypen-border-carnival.jpg" alt="Border: Carnival" />
+      <div class="album-name">Border: Carnival</div>
+      <div class="album-price">$21.99</div>
+      <div class="album-actions">
+        <button class="add-to-cart-btn">Add to Cart</button>
+        <button class="buy-now-btn">Buy Now</button>
+      </div>
+    </div>
+    <div class="album-card" data-id="dimensions" data-name="Dimensions" data-price="17.99" data-type="album" data-img="https://is2-ssl.mzstatic.com/image/thumb/Music125/v4/07/f2/86/07f286a5-be02-94dd-4e0e-a781aba6d1d4/192641841651_Cover.jpg/1200x1200bf-60.jpg">
+      <img src="https://is2-ssl.mzstatic.com/image/thumb/Music125/v4/07/f2/86/07f286a5-be02-94dd-4e0e-a781aba6d1d4/192641841651_Cover.jpg/1200x1200bf-60.jpg" alt="Dimensions" />
+      <div class="album-name">Dimensions</div>
+      <div class="album-price">$17.99</div>
+      <div class="album-actions">
+        <button class="add-to-cart-btn">Add to Cart</button>
+        <button class="buy-now-btn">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="video">
+  <h2>Watch the ENHYPEN Dark Blood Concept Film</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ehj6sKnWsFQ"
+        title="ENHYPEN DARK BLOOD Concept Film" frameborder="0" allowfullscreen>
+        ENHYPEN (엔하이픈) 'DARK BLOOD' Concept Film (FULL Ver.)</iframe>
+</section>
+
+<section id="contact">
+  <h2>Contact & Sign Up</h2>
+  <form id="contact-form" onsubmit="return handleFormSubmit(event)">
+    <label for="signup-name">Sign Up (Your Name)</label>
+    <input type="text" id="signup-name" name="signup-name" placeholder="Your Name" required />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Write us a message..." required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2024 Enhypen. All Rights Reserved.
+</footer>
+
+<!-- Cart Panel -->
+<div id="cart-panel" aria-hidden="true" role="dialog" aria-label="Shopping Cart and Purchases">
+  <button id="cart-close-btn" aria-label="Close Cart">&times;</button>
+  <div id="cart-switch-buttons" role="tablist">
+    <button id="cart-tab-btn" role="tab" aria-selected="true" class="active">Cart</button>
+    <button id="purchase-tab-btn" role="tab" aria-selected="false">Purchases</button>
+  </div>
+  <div id="cart-content" role="tabpanel" tabindex="0">
+    <h3>Shopping Cart</h3>
+    <div id="cart-items" aria-live="polite" aria-relevant="additions removals"></div>
+    <div id="cart-buttons">
+      <button id="checkout-btn" disabled>Checkout</button>
+      <button id="clear-cart-btn" disabled>Clear Cart</button>
+    </div>
+  </div>
+  <div id="purchase-content" role="tabpanel" tabindex="0" hidden>
+    <h3>Your Purchases</h3>
+    <div id="purchase-items" aria-live="polite"></div>
+  </div>
+</div>
+
+<!-- Profile Panel -->
+<div id="profile-panel" aria-hidden="true" role="dialog" aria-label="User Profile and Authentication">
+  <button id="profile-close-btn" aria-label="Close Profile">&times;</button>
+  <h3>User Profile</h3>
+  <div id="profile-tabs">
+    <button id="sign-in-tab" class="active" aria-selected="true" role="tab">Sign In</button>
+    <button id="sign-up-tab" aria-selected="false" role="tab">Sign Up</button>
+  </div>
+
+  <!-- Sign In Form -->
+  <form id="sign-in-form" class="profile-form" role="tabpanel" tabindex="0" aria-hidden="false" novalidate>
+    <label for="signin-username">Username</label>
+    <input type="text" id="signin-username" name="signin-username" placeholder="Your username" required autocomplete="username" />
+
+    <label for="signin-password">Password</label>
+    <input type="password" id="signin-password" name="signin-password" placeholder="Your password" required autocomplete="current-password" />
+
+    <button type="submit">Sign In</button>
+  </form>
+
+  <!-- Sign Up Form -->
+  <form id="sign-up-form" class="profile-form" role="tabpanel" tabindex="0" aria-hidden="true" hidden novalidate>
+    <label for="signup-new-username">Choose a Username</label>
+    <input type="text" id="signup-new-username" name="signup-new-username" placeholder="Choose a username" required autocomplete="username" />
+
+    <label for="signup-password">Choose a Password</label>
+    <input type="password" id="signup-password" name="signup-password" placeholder="Choose a password" required autocomplete="new-password" />
+
+    <label for="signup-address">Address</label>
+    <textarea id="signup-address" name="signup-address" rows="3" placeholder="Your delivery address" required></textarea>
+
+    <label for="signup-card">Card Number</label>
+    <input type="text" id="signup-card" name="signup-card" placeholder="1234 5678 9876 5432" pattern="\\d{13,19}" maxlength="19" required autocomplete="cc-number" />
+
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <!-- Logged In Profile View -->
+  <div id="profile-info-view" class="profile-form" role="tabpanel" tabindex="0" aria-hidden="true" hidden>
+    <div class="profile-info"><strong>Username:</strong> <span id="profile-username"></span></div>
+    <div class="profile-info"><strong>Address:</strong> <pre style="white-space: pre-wrap;" id="profile-address"></pre></div>
+    <div class="profile-info"><strong>Card Number:</strong> <span id="profile-card-masked"></span></div>
+    <button id="profile-edit-btn">Edit Profile</button>
+    <button id="signout-btn">Sign Out</button>
+  </div>
+
+  <!-- Profile Edit Form -->
+  <form id="profile-edit-form" class="profile-form" role="tabpanel" tabindex="0" aria-hidden="true" hidden novalidate>
+    <label for="edit-username">Username</label>
+    <input type="text" id="edit-username" name="edit-username" required autocomplete="username" />
+
+    <label for="edit-address">Address</label>
+    <textarea id="edit-address" name="edit-address" rows="3" required></textarea>
+
+    <label for="edit-card">Card Number</label>
+    <input type="text" id="edit-card" name="edit-card" placeholder="1234 5678 9876 5432" pattern="\\d{13,19}" maxlength="19" required autocomplete="cc-number" />
+
+    <button type="submit">Save Profile</button>
+    <button type="button" id="profile-cancel-edit-btn" style="background:#441100;margin-top:0.5rem;">Cancel</button>
+  </form>
+</div>
+
+</body>
+</html>
+
